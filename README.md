@@ -31,10 +31,10 @@ LlanquihueTourApp/
 
   * Paquetes y clases (Semana 8)
 1. data
-   1.1 GestorPersonas: Clase que representa al gestor de datos de las personas registradas en el sistema.
+   1.1 GestorEntidad: Clase que representa al gestor de datos de las personas registradas en el sistema.
 2. model
    2.1 Cliente: Clase herencia de Persona que representa a un cliente con su nombre, rut y, como dato específico, nacionalidad.
-   2.2 Persona: Clase abstracta, padre de las clases Cliente, Proveedor y Trabajador. Implementa la interfaz Registrable y define los atributos comunes como lo son el formato de nombre y rut que sus hijas heredan junto con la implementación de la interfaz.
+   2.2 Entidad: Clase abstracta, padre de las clases Cliente, Proveedor y Trabajador. Implementa la interfaz Registrable y define los atributos comunes como lo son el formato de nombre y rut que sus hijas heredan junto con la implementación de la interfaz.
    2.3 Proveedor: Clase herencia de Persona que representa a un proveedor con su nombre (de empresa), rut (de empresa) y, como dato específico, giro empresarial.
    2.4 Registrable: Interfaz que muestra el resumen de la información registrada y cada clase que la implemente retornará el mensaje de confirmación de registro.
 Esta interfaz es implementada por la clase Persona y por herencia sus tres clases hijas (Cliente, Trabajador y Proveedor).
