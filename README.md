@@ -49,6 +49,7 @@ Esta interfaz es implementada por la clase Persona y por herencia sus tres clase
 1° Clonar el repositorio: git clone 
 
 2° Abrir el proyecto en IntelliJ IDEA
+https://github.com/ggonzalp/LlanquihueTourAppS8.git
 
 3° Ejecutar la clase principal: src/ui/Main.java
 
