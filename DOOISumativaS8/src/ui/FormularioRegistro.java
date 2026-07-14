@@ -155,7 +155,7 @@ public class FormularioRegistro extends JFrame {
         JPanel panelBotones = new JPanel(new FlowLayout(FlowLayout.LEFT, 15, 5));
 
         JButton btnAgregar = new JButton("Agregar entidad");
-        JButton btnMostrar = new JButton("Mostrar entidad");
+        JButton btnMostrar = new JButton("Mostrar entidades");
         JButton btnLimpiar = new JButton("Limpiar datos");
         JButton btnSalir = new JButton("Salir");
 
