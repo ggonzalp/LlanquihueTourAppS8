@@ -52,7 +52,7 @@ public class FormularioRegistro extends JFrame {
         titulo.setFont(new Font("Century gothic", Font.BOLD, 18));
         titulo.setAlignmentX(Component.CENTER_ALIGNMENT);
 
-        JLabel subtitulo = new JLabel("Datos de la Persona");
+        JLabel subtitulo = new JLabel("Datos de la Entidad");
         subtitulo.setFont(new Font("Century gothic", Font.ITALIC, 12));
         subtitulo.setAlignmentX(Component.CENTER_ALIGNMENT);
 
@@ -62,7 +62,7 @@ public class FormularioRegistro extends JFrame {
         JPanel panelBotones = crearPanelBotones();
         panelBotones.setAlignmentX(Component.CENTER_ALIGNMENT);
 
-        JLabel listado = new JLabel("Personas Registradas");
+        JLabel listado = new JLabel("Entidades Registradas");
         listado.setFont(new Font("Century gothic", Font.ITALIC, 14));
         listado.setAlignmentX(Component.CENTER_ALIGNMENT);
 
